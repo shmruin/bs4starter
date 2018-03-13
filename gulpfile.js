@@ -36,7 +36,7 @@ gulp.task('fonts', function() {
 // Move Fonts Folder to src/css
 gulp.task('fa', function() {
   return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
-  .pipe(gulp.dest("src/fonts"));
+  .pipe(gulp.dest("src/css"));
 });
 
 //Run these things
